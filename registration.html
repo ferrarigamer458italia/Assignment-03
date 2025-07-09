@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./SMIT.png" alt=""><br>
+    <h1>Student Registration Form</h1><br>
+    <form>
+    <span>FIRST NAME</span>
+    <input type="text" required placeholder="Enter The First Name" maxlength="30">(max 30 characters a-z and A-Z)<br>
+    <span>LAST NAME</span>
+    <input type="text" required placeholder="Enter The Last Name" maxlength="30">(max 30 characters a-z and A-Z)<br>
+    <span>DATE OF BIRTH</span>
+    <input type="date"><br>
+    <span>EMAIL ID</span>
+    <input type="email" required placeholder="Enter The Email Address"><br>
+    <span>MOBILE NUMBER</span>
+    <input type="tel" placeholder="Enetr The Mobile Number" required maxlength="10">(10 Digits Numbers)<br>
+    <span>GENDER</span>
+    <label for="male">
+    <input type="radio" value="Male" name="gender" id="male" required>Male
+    </label>
+    <label for="female">
+    <input type="radio" value="Female" name="gender" id="female" required>Female
+    </label><br>
+    <span>ADDRESS</span>
+    <textarea required></textarea><br>
+    <span>CITY</span>
+    <input type="text" required placeholder="Enter The Last Name" maxlength="30">(max 30 characters a-z and A-Z)<br>
+    <span>PIN CODE</span>
+    <input type="number" maxlength="6">(6 Digits Number)<br>
+    <span>STATE</span>
+    <input type="text" required placeholder="Enter The Last Name" maxlength="30">(max 30 characters a-z and A-Z)<br>
+    <span>HOBBIES:</span>
+    <label for="Drawing">
+    Drawing<input type="checkbox" id="Drawing">
+    </label>
+    <label for="Singing">
+    Singing<input type="checkbox" id="Singing">
+    </label>
+    <label for="Dancing">
+    Dancing<input type="checkbox" id="Dancing">
+    </label>
+    <label for="Sketching">
+    Sketching<input type="checkbox" id="Sketching">
+    </label>
+    <label for="Others">
+    Others<input type="checkbox" id="Others"> <input type="text">
+    </label><br>
+    <span>QUALIFICATION:</span>
+    <table>
+        <tr>
+            <th>SI.No.</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year Of Passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text" maxlength="10"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>(10 char max)</td>
+            <td>(upto 2 decimal)</td>
+        </tr>
+    </table><br>
+    <div>
+    <span>COURSES APPLIED FOR</span>
+    <select>
+        <option value="Select Any Course">Select Any Course</option>
+        <option value="BCA">BCA</option>
+        <option value="B.A">B.A</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="B.Comp">B.Comp</option>
+    </select><br>
+    <span>Upload Your Pic<br>(Only .png, .jpg, .jpeg foramts allow)</span>
+    <input type="file"><br>
+    <input type="submit"> <button>Reset</button>
+    </form>
+    <button>Reset</button><br>
+    <a href="./login.html">Go To Login Page</a>
+</body>
+</html>
